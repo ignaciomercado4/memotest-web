@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=Jersey+15&family=Pixelify+Sans:wght@400..700&family=Play:wght@400;700&family=Press+Start+2P&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&family=VT323&display=swap');
+
+body {
+    font-family: "Unbounded", sans-serif !important;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+footer h6 {
+    font-size: 12px;
+}
+
+.img-container {
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+}
+
+.img-container:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    transition: all 300ms ease-in;
+    opacity: 0;
+}
+
+.shown {
+    transition: all 300ms ease-in;
+    opacity: 1;
+}
