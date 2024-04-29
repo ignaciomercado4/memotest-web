@@ -11,6 +11,10 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
+    "https-server": "^0.1.2",
     "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.8.1"
   }
 }
